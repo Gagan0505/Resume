@@ -1,0 +1,29 @@
+.navbar_container {
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    align-items: centere;
+    justify-content: space-between;
+}
+.navbar_left {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: chartreuse;
+}
+
+.navbar_right {
+    display: flex;
+}
+.navbar_right > p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 10px;
+    padding : 8px 10px;
+    font-size: 15px;
+}
+
+.navbar_right > p:hover{
+    background-color: rgb(114, 108, 108);
+    cursor: pointer;
+    border-radius: 8px;
+}

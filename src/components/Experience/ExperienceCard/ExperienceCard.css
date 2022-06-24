@@ -1,0 +1,39 @@
+.ex_card_container {
+    width : 40%;
+    padding: 8px 14px;
+    background-color: #181818;
+    box-shadow: -7px 7px 7px 0px rgb(118, 129, 139);
+    margin: 0 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ex_card_title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ex_card_subtitle{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ex_card_sentence {
+    font-size: 20px;
+}
+.ex_card_tech{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.ex_card_icon_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ex_card_icon_container > img{
+    height: 50px;
+    margin: 0 9px;
+    padding-bottom: 20px;
+}

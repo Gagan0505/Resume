@@ -1,0 +1,35 @@
+.project_box_container{
+    width : 550px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px gray;
+    padding: 5px;
+}
+.project_box_image_container > img{
+    width : 540px;
+    border-radius: 15px;
+    margin: 5px;
+}
+.project_box_desc_container{
+    padding: 0 10px;
+}
+.project_box_title{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: rgb(130, 10, 110);
+}
+.project_box_sentences_container{
+    font-size: 14px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+.project_box_link > span{
+    color: crimson;
+    font-size: 20px;
+    font-weight: 700;
+}
+.project_box_link > a{
+    color: white;
+}
