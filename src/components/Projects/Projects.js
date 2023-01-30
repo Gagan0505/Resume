@@ -35,7 +35,7 @@ export default function Projects() {
         },
     ];
     return (
-        <div>
+        <div id="Projects">
             <p  className="projects_title">Projects</p>
             <div className="projects_box_container">
                 {projectData.map((value, index) => (

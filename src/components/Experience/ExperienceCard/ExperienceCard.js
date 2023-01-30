@@ -8,7 +8,7 @@ export default function ExperienceCard({
     iconImages,
 }) {
     return (
-        <div className="ex_card_container">
+        <div id="Experience" className="ex_card_container">
             <p className="ex_card_title">{companyName}</p>
             <p className="ex_card_subtitle">Designation: {designation}</p>
 

@@ -3,7 +3,7 @@ import "./TechStackIconContainer.css";
 
 export default function TechStackIconContainer({name, image, altProperty}) {
     return (
-        <div className="techstack_icons">
+        <div id="TechStack" className="techstack_icons">
                 <img src={image} alt={altProperty} />
                 <p> {name}</p>
 

@@ -2,7 +2,7 @@ import React from "react";
 import "./ProjectBox.css";
 
 export default function ProjectBox({image, title, sentences, link}) {
-    console.log(sentences);
+    //console.log(sentences);
 
     return (
         <div className="project_box_container">
